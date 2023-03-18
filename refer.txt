@@ -1,0 +1,38 @@
+*transition: all 0.4s ease-in-out
+
+The CSS code transition: all .4s ease-in-out; sets a transition effect on all CSS properties that are changed when a user interacts with an element.
+
+The transition property is used to define the transition effect and has three values:
+
+The first value, all, specifies that the transition should apply to all CSS properties that are changed.
+The second value, .4s, sets the duration of the transition. In this case, the duration is set to 0.4 seconds.
+The third value, ease-in-out, sets the timing function of the transition. ease-in-out specifies a gradual acceleration at the beginning and end of the transition.
+
+So when an element is interacted with, for example, when a user hovers over it or clicks it, the CSS properties of that element will transition smoothly over a period of 0.4 seconds with a gradual acceleration at the beginning and end of the transition.
+
+This property is commonly used to create smooth animations and transitions between different states of an element, such as changing the color, size, or position of an element.
+
+*inherit
+
+By using the inherit keyword, you can ensure that certain elements inherit the same style properties as their parent, without having to specify those properties explicitly.
+
+* tranform: translateY(-100%)
+
+The CSS code transform: translateY(-100%); is used to move an element vertically upwards by a distance equal to 100% of its own height, effectively moving it completely out of the view of the user.
+
+translateY(): This is a CSS function that specifies the amount of vertical movement for an element. In this case, it moves the element upwards along the Y-axis.
+(-100%): This value specifies the distance of the movement. The negative value indicates that the movement is in the upward direction. The value of 100% means that the element will move upwards by a distance equal to 100% of its own height.
+So when this code is applied to an element, it will move the element vertically upward by a distance equal to its own height, effectively moving it out of the view of the user.
+
+* display: none
+
+The CSS code display: none; is used to completely hide an element and remove it from the document flow. When applied to an element, the element will not be displayed on the web page and will not take up any space in the layout.
+
+* transform: translateY(0) scale(1)
+
+translateY(0): This is a CSS function that specifies the amount of vertical movement for an element. In this case, it moves the element vertically by 0 pixels, which means it doesn't move it at all along the Y-axis.
+scale(1): This CSS function is used to apply a scaling transformation to the element. In this case, it sets the scale of the element to 1, which means it doesn't scale it at all.
+
+* background-color: var(colorname) !important
+
+The CSS code background-color: var(--color-secondary) !important; sets the background color of an element to a custom CSS variable named --color-secondary. The !important keyword is used to override any previous background color declarations, making this declaration the highest priority.
