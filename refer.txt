@@ -36,3 +36,13 @@ scale(1): This CSS function is used to apply a scaling transformation to the ele
 * background-color: var(colorname) !important
 
 The CSS code background-color: var(--color-secondary) !important; sets the background color of an element to a custom CSS variable named --color-secondary. The !important keyword is used to override any previous background color declarations, making this declaration the highest priority.
+
+** grid-template-columns: repeat(2, 1fr);
+
+The CSS property grid-template-columns is used to define the columns of a CSS Grid layout. The repeat() function is used to repeat a pattern a specified number of times, and the 1fr unit is used to represent a fraction of the available space in the grid container.
+
+grid-template-columns: repeat(2, 1fr); creates a grid layout with two equal-width columns that adjust automatically based on the available space in the grid container. This is useful for creating responsive layouts that adapt to different screen sizes and devices.
+
+** overflow: hidden
+
+The CSS property overflow: hidden; is used to control how content that exceeds the size of its container is displayed. It is commonly used when you want to hide any parts of an element that extend beyond its container, rather than displaying them and potentially disrupting the layout of the page.
