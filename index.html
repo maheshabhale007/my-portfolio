@@ -15,18 +15,38 @@
     <script src="https://kit.fontawesome.com/53b2cf3713.js" crossorigin="anonymous"></script>
   </head>
   <body class="main-content">
-    <header class="section sec1 header active">
-        <i class="fa-brands fa-instagram"></i>
+    <header class="section sec1 header active" id="home">
+        <div class="header-content">
+            <div class="left-header">
+                <div class="h-shape"></div>
+                <div class="image">
+                    <img src="img/MaheshAbhale_20110002.jpg" alt="My-Photo">
+                </div>
+            </div>
+            <div class="right-header">
+                <h1 class="name">
+                    Hii, I am <span>Mahesh Abhale</span> A Web Developer.
+                </h1>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus praesentium modi eligendi reprehenderit! Ullam magnam eveniet nesciunt aut incidunt? Repellendus rem odit error inventore aut cupiditate voluptates, quia minima optio?
+                </p>
+                <a href="" class="main-btn">
+                    <span class="btn-text">Download Resume</span>
+                    <span class="btn-icon"><i class="fa-solid fa-download"></i></span>
+                </a>
+            </div>
+        </div>
+        <!-- <i class="fa-brands fa-instagram"></i> -->
     </header>
     <main>
-        <section class="section sec2 about"></section>
-        <section class="section sec3 portfolio"></section>
-        <section class="section sec4 blogs"></section>
-        <section class="section sec5 contact"></section>
+        <section class="section sec2 about" id="about"></section>
+        <section class="section sec3 portfolio" id="portfolio"></section>
+        <section class="section sec4 blogs" id="blogs"></section>
+        <section class="section sec5 contact" id="contact"></section>
     </main>
 
     <div class="controlls">
-        <div class="control control-1 active-btn" data-id="header">
+        <div class="control control-1 active-btn" data-id="home">
             <i class="fas fa-home"></i>
         </div>
         <div class="control control-5" data-id="about">
@@ -42,7 +62,6 @@
             <i class="fa-solid fa-envelope-open"></i>
         </div>
     </div>
-    <h1>Mahesh</h1>
    <script src="index.js"></script>
   </body>
 </html>
